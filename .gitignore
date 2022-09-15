@@ -1,3 +1,4 @@
 SwiftAlgorithm.xcodeproj/
 *.DS_Store
 SwiftAlgorithm/.DS_Store
+SwiftAlgorithm/Class1/SwiftAlgorithm-Bridging-Header.h
