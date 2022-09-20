@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  2557.swift
 //  SwiftAlgorithm
 //
 //  Created by 김민석 on 2022/09/20.
