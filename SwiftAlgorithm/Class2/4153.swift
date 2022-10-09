@@ -9,19 +9,22 @@ import Foundation
 
 while (true) {
     let num = readLine()!.split(separator: " ").map{Int(String($0))!}
-    var value = false
+    
     let numDecimal0 = pow(Decimal(num[0]), 2)
     let numDecimal1 = pow(Decimal(num[1]), 2)
     let numDecimal2 = pow(Decimal(num[2]), 2)
    
-    if numDecimal0 + numDecimal1 == numDecimal2{
-        value = true
-    }
-    
     if num[0] == 0 {
         break
     }
-    if value == true{
+    
+    if numDecimal0 + numDecimal1 == numDecimal2{
+        print("right")
+    }
+    else if numDecimal1 + numDecimal2 == numDecimal0{
+        print("right")
+    }
+    else if numDecimal2 + numDecimal0 == numDecimal1{
         print("right")
     }
     else {
